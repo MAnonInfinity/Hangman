@@ -28,7 +28,8 @@ while '_' in display:
     guess = input("Guess a letter: ").lower() 
     if guess in display: #Check Repetition
         print(f"You've already guessed {guess}")
-    replit.clear()
+      
+    replit.clear() #Clear Screen
 
     for i in range(word_length): #Set the correct guess
         if chosen_word[i] == guess:
